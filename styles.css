@@ -21,8 +21,10 @@ form {
     margin: 0 auto;
 }
 
-padding: 2rem 0;
-border-bottom: 3px solid #3b3b4f;
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
 }
 
 fieldset:last-of-type {
@@ -64,4 +66,8 @@ input[type="submit"] {
     background-color: #3b3b4f;
     border-color: white;
     min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
 }
